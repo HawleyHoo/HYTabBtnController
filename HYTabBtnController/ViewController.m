@@ -26,13 +26,13 @@
     self.str1 = string;
     self.str2 = string;
     
-    NSLog(@" %p %@", string, string);
+    NSLog(@"string %p %@", string, string);
     NSLog(@" %p %@", self.str1, self.str1);
     NSLog(@" %p %@\n\n", self.str2, self.str2);
     
     string = @"456";
     
-    NSLog(@" %p %@", string, string);
+    NSLog(@"string %p %@", string, string);
     NSLog(@" %p %@", self.str1, self.str1);
     NSLog(@" %p %@", self.str2, self.str2);
 }
