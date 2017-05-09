@@ -40,7 +40,6 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.backgroundColor = [UIColor blueColor];
         
         UIImage *menuBgImage = [UIImage imageNamed:@"home_menu_bg_image"];
         UIImageView *menuBgView = [[UIImageView alloc] initWithImage:menuBgImage];

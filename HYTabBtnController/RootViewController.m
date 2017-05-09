@@ -55,6 +55,7 @@
 
 
 - (void)switchViewController:(MenuType)type {
+    NSLog(@" type %ld", (long)type);
     switch (type)
     {
         case MenuTypeOne:
@@ -69,7 +70,7 @@
             break;
         case MenuTypeThree:
         {
-            [self pushToViewControllerOfClass:[TwoViewController class]];
+            [self pushToViewControllerOfClass:[ThreeViewController class]];
         }
             break;
         case MenuTypeFour:
